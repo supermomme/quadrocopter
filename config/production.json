@@ -1,0 +1,20 @@
+{
+  "host": "quadrocopter-app.feathersjs.com",
+  "port": 80,
+  "mysql": "DATABASE_URL",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "FEATHERS_AUTH_SECRET"
+    },
+    "local": {},
+    "google": {
+      "clientID": "your google client id",
+      "clientSecret": "your google client secret",
+      "permissions": {
+        "scope": ["profile"]
+      }
+    }
+  }
+}
