@@ -8,7 +8,7 @@ module.exports = function(){
 
   let options = {
     paginate: {
-      default: 5,
+      default: 6,
       max: 25
     }
   };
